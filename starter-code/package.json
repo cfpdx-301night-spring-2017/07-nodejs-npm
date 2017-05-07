@@ -1,0 +1,24 @@
+{
+  "name": "07-christy",
+  "version": "1.0.0",
+  "description": "![CF](https://i.imgur.com/7v5ASc8.png)  Lab 07: NodeJS & NPM ======= [Code of Conduct](https://github.com/codefellows/code-of-conduct)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christylaguardia/07-nodejs-npm.git"
+  },
+  "author": "Christine La Guardia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christylaguardia/07-nodejs-npm/issues"
+  },
+  "homepage": "https://github.com/christylaguardia/07-nodejs-npm#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}

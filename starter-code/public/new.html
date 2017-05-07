@@ -33,7 +33,7 @@
     <header class="site-header clearfix">
       <section class="heading-group-h1 pull-left">
         <h1>
-          Kilovolt Blog!
+          Kilovolt Blog! Christy was here
         </h1>
         <h2>The shocking power of static pages</h2>
       </section>
@@ -48,23 +48,25 @@
     <main class="clearfix">
       <section id="write" class="tab-content">
         <h1>New Article</h1>
-        <form action="#" id="new-form">
+        <form method="POST" action="/new" id="new-form">
           <label>
-            <input type="text" id="article-title" placeholder="Article title" required>
+            <input type="text" id="article-title" name="article-title" placeholder="Article title" required>
           </label>
-          <textarea id="article-body" rows="8" cols="40" required></textarea>
+          <textarea id="article-body" name="article-body" rows="8" cols="40" required></textarea>
           <label>
-            <input type="text" id="article-author" placeholder="Author Name" required>
-          </label>
-          <label>
-            <input type="text" id="article-author-url" placeholder="Author's URL" required>
+            <input type="text" id="article-author" name="article-author" placeholder="Author Name" required>
           </label>
           <label>
-            <input type="text" id="article-category" placeholder="Category" required>
+            <input type="text" id="article-author-url" name="article-author-url" placeholder="Author's URL" required>
           </label>
           <label>
-            <input type="checkbox" id="article-published"> Published
+            <input type="text" id="article-category" name="article-category" placeholder="Category" required>
           </label>
+          <label>
+            <input type="checkbox" id="article-published" name="article-published"> Published
+          </label>
+          <!-- button to submit the form -->
+          <input type="submit" value="Submit New Article"/>
         </form>
       </section>
       <section id="articles" class="tab-content">
